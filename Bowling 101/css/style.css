@@ -3,7 +3,7 @@
     --primary: #F3BD00;
     --secondary: #757575;
     --light: #F3F6F8;
-    --dark: #0C2B4B;
+    --dark: #3e0c4b;
 }
 
 .py-6 {
@@ -232,51 +232,6 @@
 }
 
 
-/*** Team ***/
-.team-items {
-    margin: -.75rem;
-}
-
-.team-item {
-    padding: .75rem;
-}
-
-.team-item::after {
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 0;
-    top: 0;
-    left: 0;
-    background: #FFFFFF;
-    transition: .5s;
-    z-index: -1;
-}
-
-.team-item:hover::after {
-    height: 100%;
-    background: var(--primary);
-}
-
-.team-item .team-social {
-    position: absolute;
-    width: 100%;
-    height: 0;
-    top: 0;
-    left: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: rgba(0, 0, 0, .75);
-    overflow: hidden;
-    opacity: 0;
-    transition: .5s;
-}
-
-.team-item:hover .team-social {
-    height: 100%;
-    opacity: 1;
-}
 
 
 /*** Testimonial ***/
