@@ -1,10 +1,12 @@
 /********** Template CSS **********/
 :root {
-    --primary: #F3BD00;
+    --primary: #bb2edf;
     --secondary: #757575;
     --light: #F3F6F8;
-    --dark: #3e0c4b;
+    --dark: #10a38b;
 }
+
+/*--primary: #F3BD00;*/
 
 .py-6 {
     padding-top: 6rem;
@@ -253,8 +255,10 @@
     box-shadow: none;
 }
 
+
+
 .copyright {
-    background: #092139;
+    background: #025216;
 }
 
 .copyright a {
